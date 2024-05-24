@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 import Styles from '../Auth/auth.module.scss'
 import { toast } from 'react-toastify'
 import { auth } from '../../database/Config'
-
 import { createUserWithEmailAndPassword } from 'firebase/auth'
 
 const Register = () => {

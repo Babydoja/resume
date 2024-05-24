@@ -14,7 +14,7 @@ const Free = () => {
         </div>
         <div className='flexbox'>
           
-                {
+                {/* {
                     Freedata.map((free)=>{
                         const{id,icon,heading,text}=free
                         return(
@@ -28,7 +28,18 @@ const Free = () => {
                        
                     })
                 }
+           */}
           
+           {
+            Freedata.map((free)=>{
+                const{id,icon,heading,text}=free
+                return(
+                  <div key={id}>
+                    <Frees icon={icon} heading={heading}text={text}/>
+                  </div>
+                )
+            })
+           }
 
         </div>
     </div>

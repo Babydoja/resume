@@ -5,6 +5,8 @@ import{TfiWrite} from 'react-icons/tfi'
 import{MdFreeCancellation} from 'react-icons/md'
 import{FaUserLock} from 'react-icons/fa'
 import{FaCreativeCommonsSamplingPlus} from 'react-icons/fa'
+// import Image from '../assets/Group 216.png'
+// import Image1 from '../assets/Group 216.png'
 
 export const Freedata =  [
     {
@@ -12,20 +14,21 @@ export const Freedata =  [
         icon: <LiaCrossSolid size={40}/>,
         heading:"Fully flexible design",
         text:"Being easy to use doesn't have to mean that you are forced into using a pre-made template. Make your resume stand out by trying different headline formats and more.",
-       
+        // button:"SIGN UP"
     },
     {
         id:2,
         icon: <FaFilePdf size={40}/>,
         heading:"Pdf file",
         text:"A great deal of effort went into making sure that your PDF looks as crisp as it gets when printed or shared.",
-       
+        // img:<img src={Image1}/>
     },
     {
         id:3,
         icon: <TfiWrite size={40}/>,
         heading:"Effortless editing",
         text:"Whether you want to input skills,professional experience, we designed guided forms to help you inputting all the data necessary.",
+        // img:<img src={Image}/>
        
     },
     {
